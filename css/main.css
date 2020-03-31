@@ -107,6 +107,7 @@ textarea {
   body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
+    color: #e2e3ed;
     text-align: left;
   }
 
@@ -121,12 +122,15 @@ textarea {
 
   h2 {
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.875em;
   }
 
   h3, h4 {
     font-family: 'Poppins', sans-serif;
     margin: 20px 0;
     font-size: 1.125em;
+    font-weight: 500;
   }
 
   p {
