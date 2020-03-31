@@ -169,9 +169,6 @@ textarea {
 
   header {
     padding: 15px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   header .content-wrapper {
@@ -183,15 +180,16 @@ textarea {
   }
 
   .header-divider {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: #3a3a3a;
     width: 100%;
     height: 1px;
     margin: 10px 0 20px 0;
   }
 
   header nav {
+    font-size: 1.125em;
+    font-weight: 700;
+    text-transform: uppercase;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -205,9 +203,14 @@ textarea {
     width: 100%;
   }
 
+  header nav ul li {
+    font-size: 1.125em;
+  }
+
   /* FOOTER */
 
   footer {
+    text-align: center;
     flex-direction: column;
   }
 
@@ -251,13 +254,46 @@ textarea {
     flex-flow: row wrap;
   }
 
+  .hero-area h1 {
+    font-size: 2.25em;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
   /* Aside */
 
   aside {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+  }
+
+  aside .form {
+    margin-top: 30px;
+  }
+
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
+
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
   }
 
   /* Features */
@@ -266,6 +302,10 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+  }
+
+  features h2 {
+    margin-bottom: 60px;
   }
 
   features article {
@@ -281,19 +321,22 @@ textarea {
   }
 
   .features p {
+    text-align: center;
     margin: 0;
   }
 
   /* Reviews */
 
   .reviews {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
   }
 
   reviews h2 {
-    margin-bottom: 40px;;
+    margin-bottom: 40px;
+    line-height: 1;
   }
 
   .reviews {
@@ -306,6 +349,7 @@ textarea {
   ===============================*/
 
   .mission {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -313,6 +357,7 @@ textarea {
   }
 
   .contact-section {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     align-items: center;
