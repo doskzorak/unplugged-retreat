@@ -527,6 +527,7 @@ FAQ PAGE
    Modify as content requires.
    ========================================================================== */
 
+/* ================= */
 @media only screen and (min-width: 768px) {
 /*Tablet Styles*/
 
@@ -667,17 +668,21 @@ FAQ PAGE
     ABOUT
    ============================================== */
 
-  .mission-content {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     padding-top: 20px;
-   }
+   .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
 
   .mission-content p {
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 45.5%;
+  }
+  
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -716,7 +721,7 @@ FAQ PAGE
 /*===========================================*/
 @media only screen and (min-width: 1200px) {
   /*Desktop styles*/
-
+/*===========================================*/
    /*General styles */
   header {
     padding: 15px 0;
@@ -788,6 +793,10 @@ FAQ PAGE
   /* ==============================================
   About Page
   ============================================== */
+
+  .map figure {
+    padding-bottom: 37.5%;
+  }
 
   .mission h2,
   .contact-section .content-wrapper h2 {
