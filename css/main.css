@@ -380,7 +380,27 @@ textarea {
     flex-flow: row wrap;
   }
 
-  .contact-content p {
+  .contact-section p {
+    margin: 0;
+  }
+
+  .map figure {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .contact-content {
     margin: 0;
   }
 
@@ -389,6 +409,7 @@ FAQ PAGE
   ===============================*/
 
   .faq {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -405,6 +426,7 @@ FAQ PAGE
 
   .faq h2 {
     margin-bottom: 40px;
+    line-height: 1;
   }
 
   .faq-content {
