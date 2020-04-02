@@ -184,7 +184,7 @@ textarea {
     width: 60%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     flex-flow: row wrap;
   }
 
@@ -201,7 +201,7 @@ textarea {
     text-transform: uppercase;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: right;
     flex-flow: row wrap;
     width: 60%;
   }
@@ -556,6 +556,7 @@ FAQ PAGE
 /* ================= */
 @media only screen and (min-width: 768px) {
 /*Tablet Styles*/
+/* ================= */
 
   /*General styles */
   .content-wrapper {
