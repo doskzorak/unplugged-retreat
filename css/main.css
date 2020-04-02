@@ -336,6 +336,11 @@ textarea {
     flex-flow: row wrap;
   }
 
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
+  }
+
   .features p {
     text-align: center;
     margin: 0;
@@ -391,6 +396,11 @@ textarea {
     overflow: hidden;
     width: 100%;
   }
+
+  .mission-content p {
+    padding: 5px;
+  }
+
 
   .map iframe {
     position: absolute;
